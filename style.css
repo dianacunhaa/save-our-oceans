@@ -88,6 +88,7 @@ summary{
  }
  .title-acordeon{
     font-family: 'Roboto Mono', monospace,  bold;
+    font-size:larger;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -95,7 +96,7 @@ summary{
    padding: 40px;
    background: white ;
    margin:auto;
-   margin-top: 20px;
+   margin-top: 200px;
 
  }
  
@@ -112,6 +113,7 @@ summary{
     color: white;
     font-family: 'Roboto Mono', monospace;
     
+    
   }
 .botao-call:hover{
     opacity: 0.7;
@@ -119,33 +121,53 @@ summary{
 
 .logo{ 
 
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
-    width: 3% ;
+    margin-bottom: 10px;
+    width: 4.5%;
 }
 
 div.gallery {
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+ display: grid;
+ place-items: center;
+ align-items:center;
+ 
     
+ 
     margin: 5px;
    /* border: 1px solid #ccc;*/
     float: left;
     width: 180px;
+    
+   
   }
   
   div.gallery:hover {
     opacity: 0.7;
   }
+  .footer{
+    font-size: small;
+
+  }
   
   div.gallery img {
     width: 100%;
     height: auto;
+    /*height: auto;
+    /*display: flex;
+    justify-content: space-around;
+    flex-direction: row;*/
+    
+    
+    
   }
   
   div.desc {
     padding: 15px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace, bold;
     
   }
 
@@ -158,6 +180,8 @@ div.gallery {
         padding: 10px 15px; 
         color: white;
         align-items: center;
+
+        
   }
       
       .teste-call:hover {
@@ -167,13 +191,33 @@ div.gallery {
 .gallery-adoption{
 
   font-family: 'Roboto Mono', monospace;
+  
     margin:auto;
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
     gap: 20px;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: space-around;
+ 
+    
+    
 
    
   
+}
+.menu{
+
+  
+  color: black;
+  text-align:center;
+  align-items:center;
+  margin-right:auto;
+  font-family: 'Roboto Mono', monospace,  bold;
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+
 }
  
